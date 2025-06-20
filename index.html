@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Assembly - United Ancient Indigenous Enlightened Nations</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        // Site theme configuration
+        window.SITE_THEME = {
+            logoUrl: 'https://tsc.ecitizen.media/New_UAN_Logo.png',
+            
+            fallbackBaseUrl: '',
+            logoGdriveId: '',
+            bannerGdriveId: '',
+            
+            colors: {
+                'primary': '#5e2121',
+                'secondary': '#F1EBDF',
+                'accent': '#CF3E20',
+                'text-primary': '#4F4234',
+                'text-dark': '#383024',
+                'gold': '#D4AF37'
+            },
+            
+            classes: {
+                'container': 'max-w-7xl mx-auto px-5',
+                'section': 'py-10',
+                'main-title': 'text-5xl text-text-dark mb-8 font-normal',
+                'section-title': 'text-text-dark text-2xl font-bold mt-10 mb-6 border-b-2 border-gold pb-2',
+                'subsection-title': 'text-text-dark text-lg mb-3 uppercase font-bold',
+                'paragraph': 'mb-5 text-justify leading-relaxed',
+                'caption': 'text-sm text-gray-600 italic mb-6 leading-normal text-center',
+                'link': 'text-accent hover:text-primary hover:underline transition-colors duration-200',
+                'pre-footer': 'bg-secondary py-12 mt-12',
+                'pre-footer-grid': 'grid grid-cols-2 md:grid-cols-4 gap-8',
+                'pre-footer-title': 'text-text-dark text-base font-bold mb-4 uppercase',
+                'pre-footer-link': 'text-sm text-text-primary hover:text-accent hover:underline transition-colors duration-200'
+            },
+            
+            navigation: [
+                { name: 'About Us', href: 'https://unitedancientnations.org/about' },
+                { name: 'Our Work', href: 'https://unitedancientnations.org/our-work' },
+                { name: 'Events and News', href: 'https://unitedancientnations.org/events-news' },
+                { name: 'Get Involved', href: 'https://unitedancientnations.org/get-involved' }
+            ],
+            
+            banner: {
+                title: 'General Assembly',
+                imageUrl: 'https://tsc.ecitizen.media/Banner.jpg'
+            },
+            
+            footer: {
+                contact: {
+                    phone: '',
+                    email: ''
+                },
+                copyright: '&copy; 2024 United Ancient Indigenous Enlightened Nations. All Rights Reserved.'
+            }
+        };
+    </script>
+    
+    <script src="semantic-converter-v5.js"></script>
+    
+    <style>
+        body {
+            background-color: #fff;
+            color: #4F4234;
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .custom-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .custom-list li::before {
+            content: "•";
+            color: #D4AF37;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .banner-overlay-gradient {
+            background: linear-gradient(45deg, rgba(94, 33, 33, 0.8) 0%, rgba(207, 62, 32, 0.6) 50%, rgba(0, 0, 0, 0.4) 100%);
+        }
+
+        .logo-glow {
+            filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+        }
+
+        .text-shadow-enhanced {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .banner-content {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(94, 33, 33, 0.15);
+        }
+
+        .fade-in {
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .slide-in-left {
+            animation: slideInLeft 0.8s ease-out;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .slide-in-right {
+            animation: slideInRight 0.8s ease-out;
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <!-- Navigation and Banner are automatically injected by semantic-converter-v5.js -->
+
+    <!-- Main Content Container -->
+    <div class="container">
+        <main class="section">
+            
+            <!-- Overview Banner -->
+            <div class="bg-gradient-to-br from-secondary to-white p-8 rounded-xl shadow-lg border-2 border-dashed border-accent mb-8 fade-in">
+                <div class="text-center mb-6">
+                    <h2 class="text-accent text-xl font-bold">
+                        🌍 The Unified Voice of Over 300 Million Indigenous Peoples Worldwide
+                    </h2>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div class="slide-in-left">
+                        <p class="paragraph">
+                            The <strong>UAN General Assembly</strong> bridges ancient wisdom and modern governance to foster a harmonious, sovereign, and sustainable global Indigenous community. Established in 2003 under the Charter of the United Ancient Indigenous Enlightened Nations.
+                        </p>
+                        <p class="paragraph">
+                            Comprised of <strong>160+ Member and Observer Indigenous Nations</strong>, serving as the chief deliberative, policymaking, and representative organ of the UAN.
+                        </p>
+                    </div>
+                    <div class="slide-in-right">
+                        <p class="paragraph"><strong>Key Focus Areas:</strong></p>
+                        <ul class="custom-list">
+                            <li>Indigenous rights and sovereignty</li>
+                            <li>Traditional ecological knowledge</li>
+                            <li>Cultural preservation and heritage</li>
+                            <li>Sustainable development practices</li>
+                            <li>Peaceful consensus building</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Assembly Hall Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-12">
+                <div class="fade-in">
+                    <div class="relative rounded-xl overflow-hidden shadow-lg card-hover">
+                        <div class="w-full h-96 bg-gradient-to-br from-primary to-text-dark flex items-center justify-center">
+                            <img src="general-assembly-hall.jpg" alt="General Assembly Hall" class="w-full h-full object-cover"
+                                 onerror="handleImageErrorWithGdriveFallback(this)">
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent text-white p-6">
+                            <p class="text-sm">View of the General Assembly hall during UAN Summit ceremonial session</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <h2 class="section-title">Functions and Powers of the General Assembly</h2>
+                    <p class="paragraph">
+                        The Assembly operates through traditional Indigenous governance principles while engaging with modern international frameworks.
+                    </p>
+                    <ul class="custom-list">
+                        <li>Decisions on important questions—such as those on peace and security, admission of new member nations, and budgetary matters—require a two-thirds majority</li>
+                        <li>Decisions on other questions are passed by simple majority</li>
+                        <li>Emphasizes consensus-building circles over formal voting</li>
+                        <li>The Assembly adopts its own rules of procedure and elects a Chief Speaker and 21 Elder Advisors for each session</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Core Functions Section -->
+            <div class="bg-gradient-to-br from-white to-secondary/30 p-8 rounded-xl shadow-lg mb-12 fade-in">
+                <h2 class="section-title">Core Functions and Powers</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <div class="slide-in-left">
+                        <h3 class="subsection-title text-primary">Legislative & Advisory Role</h3>
+                        <p class="paragraph">
+                            Makes recommendations on international Indigenous issues and acts across all governance pillars: political, economic, humanitarian, social, cultural, and spiritual.
+                        </p>
+                        
+                        <h4 class="text-text-dark font-bold text-base mb-3 mt-6">Powers Under the Charter Include:</h4>
+                        <ul class="custom-list">
+                            <li>Approving UAN budget and financial assessments</li>
+                            <li>Electing members to the Elder Council and other organs</li>
+                            <li>Recommending the appointment of the Secretary-General</li>
+                            <li>Recommending principles for peace, security, and cultural protection</li>
+                            <li>Discussing and advising on any matters within the Charter</li>
+                        </ul>
+                    </div>
+                    <div class="slide-in-right">
+                        <h3 class="subsection-title text-primary">Indigenous Forum</h3>
+                        <p class="paragraph">
+                            Engages over 300 million Indigenous peoples from 5,000+ communities globally, promoting sustainable development rooted in traditional ecological knowledge.
+                        </p>
+                        
+                        <h4 class="text-text-dark font-bold text-base mb-3 mt-6">Assembly Activities:</h4>
+                        <ul class="custom-list">
+                            <li>Annual UAN Summit with ceremonial and council sessions</li>
+                            <li>Year-round traditional governance meetings</li>
+                            <li>Initiating studies to promote political cooperation</li>
+                            <li>Development and codification of Indigenous international law</li>
+                            <li>Realization of Indigenous rights and fundamental freedoms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Decision Making Section -->
+            <div class="bg-gradient-to-br from-secondary/50 to-white p-8 rounded-xl shadow-lg mb-12 fade-in">
+                <h2 class="section-title">Decision-Making Process & Structure</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <div class="slide-in-left">
+                        <h3 class="subsection-title text-primary">Voting Structure</h3>
+                        <p class="paragraph">
+                            Each of the 160+ Indigenous Nations has <strong>one vote</strong>. The Assembly emphasizes consensus-building circles over formal voting, following traditional Indigenous governance practices.
+                        </p>
+                        
+                        <h4 class="text-text-dark font-bold text-base mb-3 mt-6">Voting Requirements:</h4>
+                        <ul class="custom-list">
+                            <li>Two-thirds majority required for major decisions</li>
+                            <li>Simple majority for other questions</li>
+                            <li>Consensus-building preferred approach</li>
+                            <li>Cultural protocols integrated into decision-making</li>
+                        </ul>
+                    </div>
+                    <div class="slide-in-right">
+                        <h3 class="subsection-title text-primary">Credentials & Protocols</h3>
+                        <p class="paragraph">
+                            The Credentials Committee is appointed each session to verify credentials and cultural protocol compliance of Indigenous representatives.
+                        </p>
+                        
+                        <h4 class="text-text-dark font-bold text-base mb-3 mt-6">Official Protocols:</h4>
+                        <ul class="custom-list">
+                            <li>Blends international diplomacy with traditional Indigenous governance</li>
+                            <li>Ensures cultural authenticity and dignity</li>
+                            <li>Emphasizes sovereignty and ancestral knowledge</li>
+                            <li>Indigenous Delegates Handbook issued annually</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Councils Section -->
+            <div class="bg-gradient-to-br from-white to-gold/10 p-8 rounded-xl shadow-lg mb-12 fade-in">
+                <h2 class="section-title">Main Councils of the General Assembly</h2>
+                <p class="paragraph">The Assembly's six councils each handle agenda items aligned with their specialized areas:</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div class="bg-secondary/70 p-6 rounded-lg border-l-4 border-accent card-hover">
+                        <h4 class="text-text-dark font-bold text-base mb-3">Council for Indigenous Trade & Economic Cooperation</h4>
+                    </div>
+                    <div class="bg-secondary/70 p-6 rounded-lg border-l-4 border-accent card-hover">
+                        <h4 class="text-text-dark font-bold text-base mb-3">Council for Cultural Preservation & AI Digital Heritage</h4>
+                    </div>
+                    <div class="bg-secondary/70 p-6 rounded-lg border-l-4 border-accent card-hover">
+                        <h4 class="text-text-dark font-bold text-base mb-3">Council for Holistic Health & Sustainable Development</h4>
+                    </div>
+                    <div class="bg-secondary/70 p-6 rounded-lg border-l-4 border-accent card-hover">
+                        <h4 class="text-text-dark font-bold text-base mb-3">Council for Indigenous Diplomacy & Global Collaboration</h4>
+                    </div>
+                    <div class="bg-secondary/70 p-6 rounded-lg border-l-4 border-accent card-hover">
+                        <h4 class="text-text-dark font-bold text-base mb-3">Council for Ancestral Wisdom & Spiritual Practices</h4>
+                    </div>
+                    <div class="bg-secondary/70 p-6 rounded-lg border-l-4 border-accent card-hover">
+                        <h4 class="text-text-dark font-bold text-base mb-3">Council for Environmental Stewardship & Sacred Lands</h4>
+                    </div>
+                </div>
+                
+                <p class="paragraph mt-8 italic text-center">
+                    Some critical issues, such as <strong>land rights</strong> and <strong>cultural sovereignty</strong>, are handled directly in the plenary sessions.
+                </p>
+            </div>
+
+            <!-- Regional Structure Section -->
+            <div class="bg-gradient-to-br from-primary/5 to-accent/5 p-8 rounded-xl shadow-lg mb-12 fade-in">
+                <h2 class="section-title">Regional Structure & Subsidiary Organs</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <div class="slide-in-left">
+                        <h3 class="subsection-title text-primary">Regional Circles</h3>
+                        <p class="paragraph">
+                            Used for elections and consultation, with the Chief Speaker rotating among these circles based on traditional protocols:
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 mt-6">
+                            <div class="bg-primary text-white p-4 rounded-lg text-center text-sm font-medium card-hover">
+                                African Indigenous Nations
+                            </div>
+                            <div class="bg-primary text-white p-4 rounded-lg text-center text-sm font-medium card-hover">
+                                Asia-Pacific Indigenous Peoples
+                            </div>
+                            <div class="bg-primary text-white p-4 rounded-lg text-center text-sm font-medium card-hover">
+                                Arctic Indigenous Communities
+                            </div>
+                            <div class="bg-primary text-white p-4 rounded-lg text-center text-sm font-medium card-hover">
+                                Americas Indigenous Nations
+                            </div>
+                            <div class="bg-primary text-white p-4 rounded-lg text-center text-sm font-medium card-hover">
+                                European Indigenous Peoples
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-in-right">
+                        <h3 class="subsection-title text-primary">Subsidiary Organs</h3>
+                        <p class="paragraph">
+                            The Assembly may establish subsidiary organs as deemed necessary:
+                        </p>
+                        <ul class="custom-list">
+                            <li>Elder Councils</li>
+                            <li>Cultural Preservation Commissions</li>
+                            <li>Traditional Governance Committees</li>
+                            <li>Spiritual and Healing Circles</li>
+                            <li>Working Groups for Specific Issues</li>
+                        </ul>
+                        
+                        <h4 class="text-text-dark font-bold text-base mb-3 mt-6">Special Sessions:</h4>
+                        <p class="paragraph">
+                            Emergency sessions may be convened for urgent Indigenous rights issues, cultural crises, or environmental threats.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Information Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover fade-in">
+                    <h3 class="section-title">Practical Arrangements</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="link text-base">Indigenous Delegates Handbook (Annual)</a></li>
+                        <li><a href="#" class="link text-base">Protocol and Cultural Liaison Service</a></li>
+                        <li><a href="#" class="link text-base">Registration & Accreditation Forms</a></li>
+                        <li><a href="#" class="link text-base">Traditional Protocol Guidelines</a></li>
+                        <li><a href="#" class="link text-base">Cultural Compliance Requirements</a></li>
+                        <li><a href="#" class="link text-base">Elder Advisory Procedures</a></li>
+                        <li><a href="#" class="link text-base">Consensus Building Protocols</a></li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover fade-in">
+                    <h3 class="section-title">General Gathering</h3>
+                    <div class="space-y-6">
+                        <div class="border-b border-secondary pb-4">
+                            <div class="text-text-primary text-sm mb-2">Annual Event</div>
+                            <a href="#" class="link text-base font-medium">Annual UAN Summit - Member Nations Express Views</a>
+                        </div>
+                        <div class="border-b border-secondary pb-4">
+                            <div class="text-text-primary text-sm mb-2">Secretary-General Report</div>
+                            <a href="#" class="link text-base font-medium">Organizational Activities & Cultural Preservation</a>
+                        </div>
+                        <div class="border-b border-secondary pb-4">
+                            <div class="text-text-primary text-sm mb-2">Development Updates</div>
+                            <a href="#" class="link text-base font-medium">Sustainable Development Progress Report</a>
+                        </div>
+                        <div>
+                            <div class="text-text-primary text-sm mb-2">Cultural Initiatives</div>
+                            <a href="#" class="link text-base font-medium">AI Digital Heritage Preservation Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Pre-footer Links Section -->
+    <div class="pre-footer">
+        <div class="container">
+            <div class="pre-footer-grid">
+                <div>
+                    <h4 class="pre-footer-title">About</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="pre-footer-link">Our Mission</a></li>
+                        <li><a href="#" class="pre-footer-link">History</a></li>
+                        <li><a href="#" class="pre-footer-link">Leadership</a></li>
+                        <li><a href="#" class="pre-footer-link">Charter</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="pre-footer-title">Councils</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="pre-footer-link">Elder Council</a></li>
+                        <li><a href="#" class="pre-footer-link">Cultural Council</a></li>
+                        <li><a href="#" class="pre-footer-link">Economic Council</a></li>
+                        <li><a href="#" class="pre-footer-link">Environmental Council</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="pre-footer-title">Documents</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="pre-footer-link">Resolutions</a></li>
+                        <li><a href="#" class="pre-footer-link">Reports</a></li>
+                        <li><a href="#" class="pre-footer-link">Treaties</a></li>
+                        <li><a href="#" class="pre-footer-link">Guidelines</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="pre-footer-title">Participation</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="pre-footer-link">Membership</a></li>
+                        <li><a href="#" class="pre-footer-link">Observer Status</a></li>
+                        <li><a href="#" class="pre-footer-link">Events</a></li>
+                        <li><a href="#" class="pre-footer-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer is automatically injected by semantic-converter-v5.js -->
+
+</body>
+</html>
