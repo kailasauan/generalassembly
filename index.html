@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>General Assembly - United Ancient Indigenous Enlightened Nations</title>
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com" defer></script>
+	<meta name="description" content="United Ancient Indigenous Enlightened Nations - General Assembly">
+	<!-- Preconnect to external domains to speed up connection -->
+	<link rel="preconnect" href="https://cdn.tailwindcss.com">
+	<link rel="preconnect" href="https://assets.ecitizen.media">
     <link rel="stylesheet" href="https://assets.ecitizen.media/uan_sites_common.css">
     <link rel="stylesheet" href="https://assets.ecitizen.media/uan_uanga.css">
-    
+	<title>United Ancient Indigenous Enlightened Nations - General Assembly (UAN-GA)</title>
+	
     <script>
         // Site theme configuration
         window.SITE_THEME = {
@@ -44,6 +45,7 @@
             },
             
             navigation: [
+				{ name: 'Home', href: '#' },
                 { name: 'About Us', href: 'https://unitedancientnations.org/about' },
                 { name: 'Our Work', href: 'https://unitedancientnations.org/our-work' },
                 { name: 'Events and News', href: 'https://unitedancientnations.org/events-news' },
@@ -52,7 +54,7 @@
             
             banner: {
                 title: 'General Assembly',
-                imageUrl: 'https://tsc.ecitizen.media/Banner.jpg'
+                imageUrl: 'general-assembly-hall.webp'
             },
             
             footer: {
@@ -65,7 +67,11 @@
         };
     </script>
     
-    <script src="https://assets.ecitizen.media/semantic-converter-v5.js"></script>
+	    <!-- JS to apply the theme (same as version 2, with updated injectBanner) -->
+	<script src="https://assets.ecitizen.media/semantic-converter-v5.js"></script>
+	
+	<!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com" ></script> <!-- defer -->
     
     <style>
         body {
@@ -192,14 +198,14 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div class="slide-in-left">
                         <p class="paragraph">
-                            The <strong>UAN General Assembly</strong> bridges ancient wisdom and modern governance to foster a harmonious, sovereign, and sustainable global Indigenous community. Established in 2003 under the Charter of the United Ancient Indigenous Enlightened Nations.
+                            The United Ancient Indigenous Enlightened Nations - General Assembly (UAN-GA) bridges ancient wisdom and modern governance to foster a harmonious, sovereign, and sustainable global Indigenous community. Established in 2003 under the Charter of the United Ancient Indigenous Enlightened Nations.
                         </p>
                         <p class="paragraph">
                             Comprised of <strong>160+ Member and Observer Indigenous Nations</strong>, serving as the chief deliberative, policymaking, and representative organ of the UAN.
                         </p>
                     </div>
                     <div class="slide-in-right">
-                        <p class="paragraph"><strong>Key Focus Areas:</strong></p>
+                        <h3>Key Focus Areas</h3>
                         <ul class="custom-list">
                             <li>Indigenous rights and sovereignty</li>
                             <li>Traditional ecological knowledge</li>
@@ -220,7 +226,7 @@
                                  onerror="handleImageErrorWithGdriveFallback(this)">
                         </div>
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent text-white p-6">
-                            <p class="text-sm">View of the General Assembly hall during UAN Summit ceremonial session</p>
+                            <!-- <p class="text-sm">View of the General Assembly hall during UAN Summit ceremonial session</p> -->
                         </div>
                     </div>
                 </div>
